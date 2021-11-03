@@ -70,3 +70,67 @@ p { 		font-size:90%; margin: 0 0 .5rem 0;  }
   body { 	width: 80%;
             max-width:1080px; }
 }
+
+
+
+/* My Styling */
+
+/* Header Background Images */
+
+  header{
+
+    background-image: url(../img/wood-1080.jpg);
+    background-repeat: no-repeat;
+    background-size: contain cover;
+    background-position: center;
+
+  }
+
+  @media screen and (min-width:561px){
+
+    header{
+
+      background-image: url(../img/wood-715.jpg);
+      background-repeat: no-repeat;
+      background-size: contain cover;
+      background-position: center;
+    
+    }
+
+  }
+
+  @media screen and (min-width:761px){
+
+    header{
+
+      background-image: url(../img/wood-907.jpg);
+      background-repeat: no-repeat;
+      background-size: contain cover;
+      background-position: center;
+    
+    }
+
+  }
+
+  @media screen and (min-width:961px){
+
+    header{
+
+      background-image: url(../img/wood-1080.jpg);
+      background-repeat: no-repeat;
+      background-size: contain cover;
+      background-position: center;
+    
+    }
+
+  }
+
+/* Icon Styling */
+
+  span{
+
+    margin-right: 2%;
+    font-size: 1.25rem;
+    color: rgb(150, 26, 105);
+
+  }
